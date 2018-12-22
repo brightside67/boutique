@@ -1,0 +1,19 @@
+.main
+  display: flex
+  height: $height-main
+  @media screen and (max-width: $mobile)
+    flex-direction: column
+.aside
+  width: $width-aside
+  background-color: $color-block-aside
+  height: 100%
+  @media screen and (max-width: $mobile)
+    width: 100%
+.content
+  width: $width-content
+  height: 100%
+  background-color: $color-block-content
+  flex-grow: 1
+  @media screen and (max-width: $mobile)
+    width: 100%
+
